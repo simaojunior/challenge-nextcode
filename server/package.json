@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+		"start": "node dist/src/server.js",
     "build": "sucrase src -d ./dist --transforms imports",
     "dev": "nodemon src/server.js"
   },

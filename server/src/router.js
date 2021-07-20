@@ -3,6 +3,6 @@ import UploadController from './controllers/UploadController';
 
 const router = Router();
 
-router.post('/', UploadController.upload);
+router.post('/upload', UploadController.upload);
 
 export default router;

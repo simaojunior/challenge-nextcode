@@ -5,8 +5,8 @@
   "license": "MIT",
   "scripts": {
 		"start": "node dist/server.js",
-    "build": "sucrase src -d ./dist --transforms imports",
-    "dev": "nodemon src/server.js"
+    "build": "sucrase server/src -d ./dist --transforms imports",
+    "dev": "nodemon server/src/server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
